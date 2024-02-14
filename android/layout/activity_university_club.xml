@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UniversityClub"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="15dp"
+    android:layout_marginTop="20dp"
+    >
+
+
+    <ViewFlipper
+        android:id="@+id/clubSlidFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
+
+    <Button
+        android:id="@+id/luCc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leading University Computer Club"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+
+        />
+
+    <Button
+        android:id="@+id/luSc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leading University Sports Club"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/luDc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leading University Debating Club"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/orpheusLu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orpheus bolt from the rock"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/bannedCommunity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Banned Community"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/ieeeLu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IEEE Leading University Student Branch"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/lusSc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leading University Social Services Club"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+
+
+
+
+
+</LinearLayout>

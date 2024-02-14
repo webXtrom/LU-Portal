@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FounderChairmanVc"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+        >
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/chairman"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Danobir Dr. Syed Ragib Ali"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Founder and Chairman, Board of Trustees,Leading University, Sylhet               Welcome Message"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:text="It is my privilege to welcome faculty members, officers and staff, students and guardians to Leading University. Since its inception, the University endeavors to impart internationally standard tertiary education for the students at an affordable cost and exerts its attempt to disseminate expertise knowledge at home and abroad relentlessly. In essence, the missions and visions of this university are attributed to the production of competent and skilled manpower so as to expedite collective development of the country and it is my chance to underscore here that Leading University makes its progress on that direction. As a matter of fact, Leading University enjoys its international reputation through various prestigious employment patterns of its graduates and vows to continue for augmentation yet further. Indeed, Leading University attempts not only to create bona fide denizens of the land but it also cherishes to embed knowledge of extra-curricular activities in the mindsets of the students and as a citadel of liberal cum ultra-modern knowledge, this university seeks to make rooms for morally enlightened education.
+                                            Danobir Dr. Syed Ragib Ali"
+                android:textIsSelectable="true"
+
+            />
+
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/vc"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prof. Qazi Azizul Mowla, PhD, FIAB, AAG"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vice-Chancellor
+                Welcome Message"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:layout_marginTop="15dp"
+                android:text="I would like to warmly welcome all to Leading University. The vision of LU is to produce professionally competent and accomplished graduates who will be able to encounter any challenges at home and abroad, to contribute significantly to the human development. The missions of the LU are to provide internationally comparable education at a reasonable cost in a range of programs that are particularly relevant to societal needs, to offer opportunities and expertise to the students so that they can achieve their goals, to gain confidence of all stakeholders through Key Performance Indicators (KPI). Leading University is a higher education institute that boosts capacity in generating and sharing knowledge, skills and attitudes as recognised nationally and globally, making important contributions to development of the country. (Read More)"
+                android:textIsSelectable="true"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

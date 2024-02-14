@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Syndicate"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Syndicate"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:padding="20dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Syndicate is the Executive Authority of the University. As per the Private University Act- 2010, the Syndicate directs and oversees all academic and administrative activities and management of the University. It evaluates the recommendations of the Academic Council, Finance Committee, Disciplinary Committee and other statutory bodies and recommends those to the Board of Trustees for approval. The Syndicate creates different posts, appoints teachers, officials, and staff, makes their service rules and job responsibilities, recommends the pay scale and tuition and other fees, etc. The Syndicate is chaired by the Vice Chancellor. The Syndicate consists of the following members"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        />
+
+
+    <!--syndicate member name -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prof. Qazi Azizul Mowla, PhD, FIAB, AAG "
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chairman  Hon’ble Vice-Chancellor, Leading University"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+        <!--add member -->
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

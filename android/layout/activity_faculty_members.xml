@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyMembers"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:padding="20dp"
+    >
+
+    <Button
+        android:id="@+id/departmentOfCse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of CSE"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+   <!-- android:background="#DEB887"-->
+
+    <Button
+        android:id="@+id/departmentOfBba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of BBA"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/departmentOfEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of English"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/departmentOfEee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of EEE"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/departmentOfCivilEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of Civil Engineering"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/departmentOfArchitecture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of Architecture"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/departmentOfLaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of Law"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/departmentOfIslamicStudies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of Islamic Studies"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/departmentOfPublicHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of Public Health"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/departmentOfTHM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department of Tourism and Hospitality Management"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+
+
+
+</LinearLayout>

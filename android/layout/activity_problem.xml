@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:backgroundTint="@color/white"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="Troubleshoot Problem"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+
+
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/tvid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Student Id"
+                android:layout_marginTop="20dp"></EditText>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Problem related to"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"></TextView>
+
+
+
+            <Spinner
+                android:id="@+id/problem1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Login"
+                android:layout_marginTop="15dp"
+                android:entries="@array/Problems">
+
+            </Spinner>
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your problem"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"></EditText>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Problem*"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"></TextView>
+
+            <Spinner
+                android:id="@+id/problem2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select"
+                android:layout_marginTop="20dp"
+                android:entries="@array/Problem">
+
+            </Spinner>
+            <EditText
+                android:textColor="@color/black"
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your problem"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"></EditText>
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Submit"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAllCaps="false"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

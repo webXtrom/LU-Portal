@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    tools:context=".TuitionFees">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+
+                android:gravity="center"
+                android:text="Tuition Fees"
+                android:textColor="@color/black"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="25dp"/>
+
+            <TextView
+                android:text="Total Fees for Undergraduate program"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="40dp"/>
+
+
+            <HorizontalScrollView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content">
+
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+
+                    <TableRow
+                        android:id="@+id/title1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="244dp"
+                            android:layout_height="40dp"
+                            android:text="Programs"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="313dp"
+                            android:layout_height="match_parent"
+                            android:text="Total Credit Hour"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="386dp"
+                            android:layout_height="40dp"
+                            android:text="Total Fees Payable"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+
+                    <TableRow
+                        android:id="@+id/title2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="CSE"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="160"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="4,66,400"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="BBA"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="140"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="4,48,200"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="English"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="140"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="3,54,400"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="LLB"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="141"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="3,91,450"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="Architecture"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="194"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="6,41,880"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="Civil Engineering"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="164"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="5,30,460"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="EEE"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="160"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="4,58,400"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="Islamic Studies"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="140"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="1,30,400"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="BANGLA"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="122"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="2,04,880"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:text="Total Fees for Undergraduate program"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="40dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content">
+
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+
+                    <TableRow
+                        android:id="@+id/tit1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="456dp"
+                            android:layout_height="match_parent"
+                            android:text="Programs"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="313dp"
+                            android:layout_height="match_parent"
+                            android:text="Total Credit Hour"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="386dp"
+                            android:layout_height="40dp"
+                            android:text="Total Fees Payable"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="CSE"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="160"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="4,66,400"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tit3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="BBA"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="140"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="4,48,200"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tit4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="English"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="140"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="3,54,400"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tit5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="LLB"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="141"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="3,91,450"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tit6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="Architecture"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="194"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="6,41,880"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tit7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="Civil Engineering"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="164"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="5,30,460"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tit8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="EEE"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="160"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="4,58,400"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tit9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="Islamic Studies"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="140"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="1,30,400"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tit10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="BANGLA"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="122"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:text="2,04,880"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</TableLayout>
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:id="@+id/homeAbout"
+    android:padding="15dp"
+    android:background="@color/white"
+
+
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/container">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            >
+
+
+            <ViewFlipper
+                android:id="@+id/luSlidFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+
+
+
+            <Button
+                android:id="@+id/NoticeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notice Board"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/three_color_curved"
+                android:textAllCaps="false"
+
+
+                />
+
+
+            <Button
+                android:id="@+id/aboutUsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/three_color_curved"
+                android:textAllCaps="false"
+
+
+                />
+
+            <Button
+                android:id="@+id/admissionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admission"
+                android:background="@drawable/three_color_curved"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/facultyMemberButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty Members"
+                android:background="@drawable/three_color_curved"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/studentButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student Portal"
+                android:background="@drawable/three_color_curved"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/universityClubButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="University Club"
+                android:background="@drawable/three_color_curved"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+
+            <Button
+                android:id="@+id/transportButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transport"
+                android:background="@drawable/three_color_curved"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+
+
+
+            <Button
+                android:id="@+id/contactButtonUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:background="@drawable/three_color_curved"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</FrameLayout>
+
+
+
+</LinearLayout>

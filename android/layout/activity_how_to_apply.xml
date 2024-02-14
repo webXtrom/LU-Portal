@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowToApply"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#D1DAC6"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How To Apply"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Candidates are advised to collect application forms from the Admission office on payment of TK. 500/- for undergraduate and TK. 500/- for graduate programs and submit the filled-up form along with 4 copies passport size photographs and attested photocopies of all certificates, transcripts and testimonials with the deadline."
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Undergraduate Graduate"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admission Procedure
+                              How to pay"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minimum Requirements for Undergraduate Program"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Minimum score of GPA 2.50 both in SSC and HSC exam or CGPA 6.00 for both exam in aggregate and not less than 2.00 in any SSC and HSC .
+
+                                 2. Five subjects in O Level and two subjects in A level and Grade B in at least four subjects and Grade C in the remaining subjects."
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minimum Requirements for MBA(Regular)"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Graduate in any discipline
+                              2. Having at least 08(Eight) points"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admission Procedure"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Meet Admission Officer for advising.
+                          2. Buy Admission Form and Prospectus.
+                          3. Fill in the Admission Form."
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit Admission Form with following documents"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. S.S.C Certificate.\n2. H.S.C Certificate.\n3. Graduate Certificate for Post Graduate Programme.\n4. Marks / Grade Sheet.\n5. Four copies of passport size and one copy of stamp size photographs.\n6. On the offer of admission, pay (shown on Pay – in- Slip) to South East Bank.\n7. Submit filled – in Registration Form for registration."
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to pay"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The students who deserve to get admission to this university have to pay all type of fees to the following designation:
+
+
+
+                                       ♦ At University Campus National Bank Booth (2nd floor of Building A) Or
+
+                                       ♦ National Bank (Laldighirpar branch)"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

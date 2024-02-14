@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/white"
+
+
+    >
+
+
+    <Button
+        android:id="@+id/founderChairmanVc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Founder and Chairman, VC"
+        android:background="@drawable/three_color_curved"
+        android:textAllCaps="false"
+
+        />
+
+    <Button
+        android:id="@+id/positionOfLu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Position of LU"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+
+        />
+
+    <Button
+        android:id="@+id/administrationOfUv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Administration"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/boardOfTrustees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Board of Trustees"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/syndicateOfUniversity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Syndicate"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/academicCouncil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Academic Council"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/proctorialBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proctorial Body"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/officeOfTrustees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Office of the Board of Trustees"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        />
+
+
+
+</LinearLayout>

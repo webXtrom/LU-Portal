@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Students"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="18dp"
+    >
+
+    <Button
+        android:id="@+id/tuitionFeesAndPaymentSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuition Fees And Payment System"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/ranklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Program Curriculum"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/problem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Problem"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/three_color_curved"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdministrationOfUniversity"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <!-- Office of the Vice-Chancellor -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Office of the Vice-Chancellor"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                />
+
+
+            <!-- Hon’ble Vice Chancellor -->
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/vc"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Prof. Qazi Azizul Mowla, PhD, FIAB, AAG"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hon’ble Vice Chancellor"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tel Office : 01313084499 , Ext. 110 ,
+                Email: vc@lus.ac.bd"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <!-- Assistant Administrative Officer -->
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/vicesofvc"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mr. Jalal Uddin"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Assistant Administrative Officer"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tel Office: 01313084499, Ext.111  ,
+                Email: vcoffice@lus.ac.bd"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+
+
+            <!-- Office of the Treasurer -->
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Office of the Treasurer"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                />
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/banamali"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mr. Banamali Bhowmick"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Treasurer"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tel Office : 01313084499 ,Ext. 120,
+                Email: treasurer@lus.ac.bd"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+                       <!-- 2nd-->
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/rajat"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mr.Rajat Kanti Chakrabarty"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Deputy Director and In Charge"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tel Office : 01313084499 ,Ext. 122,
+                Email: director_fa@lus.ac.bd"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <!-- 3nd-->
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/shahid"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mohammad Shahidul Islam"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Assistant Director"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tel Office: 01313084499,,Ext. 123
+                Email: shahid_fa@lus.ac.bd"
+                android:gravity="center"
+                android:textSize="20dp"
+                />
+
+
+            <!--Office of the Registrar-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Office of the Registrar"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                />
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/mofizuljpeg"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mr. Md. Mofizul Islam ,Registrar,Tel Office: 01313084499, Ext. 130,
+                E-mail:registrar@lus.ac.bd"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+
+            <!--Admission Section-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Admission Section"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                />
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/kawser"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Md. Kawser Hawlader , Deputy Registrar (Admission)
+Tel Office: 01313084499
+Ext. 170
+Cell: 01716-871188
+Email: admission@lus.ac.bd"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+
+
+
+            <!--Transport & Estate Section:-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Transport and Estate Section:"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                />
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/lutfur"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mr. Md. Lutfor Rahaman \nDeputy Registrar (Transportation and Estate)\nTel Office : 01313084499
+Ex174\nCell: 01677-641444\nEmail: te_ro@lus.ac.bd"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+
+
+            <!--Office of the Controller of Examinations-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Office of the Controller of Examinations"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                />
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/mostak"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dr. Mohammad Mostak Ahmed
+Controller of Examinations
+Tel. Office : 01313084499, Ext. 150
+Cell: 01715003049
+E-mail: controller@lus.ac.bd"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+
+
+            <!--RKC Central Library-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="RKC Central Library"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                />
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/libry"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dr. Md. Rashedul Azim, ACS
+Chief Librarian
+Tel Office : 01313084499
+Ext. 250
+Cell: 01312113214
+Email: librarian@lus.ac.bd"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+
+
+            <!--IT Section-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="IT Section"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                />
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/it"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mr. Dhirendra Chandra Nath
+Assistant Engineer (IT)
+Tel Office : 01313084499
+Ext. 223
+Cell: 01712-707334
+Email: itadmin@lus.ac.bd"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

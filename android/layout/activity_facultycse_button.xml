@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultycseButton"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:gravity="center"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:drawableBottom="@drawable/update"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Facultycse"
+        android:background="@drawable/three_color_curved"
+        />
+</LinearLayout>

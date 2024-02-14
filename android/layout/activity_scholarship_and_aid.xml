@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".ScholarshipAndAid"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+
+            <TextView
+                android:gravity="center"
+                android:text="Scholarship and Aid"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="50dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scholarship at Admission"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+
+
+            <HorizontalScrollView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content">
+
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TableRow
+                        android:id="@+id/title3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="20dp"
+                            android:text="Golden GPA 5.00 both in SSC and HSC"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="55dp"
+                            android:text="75% Tuition waiver"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="20dp"
+                            android:text="GPA 4.50 both in SSC and HSC"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="55dp"
+                            android:text="30% Tuition waiver"
+                            android:textColor="@color/black"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="20dp"
+                            android:text="GPA 4.00 both in SSC and HSC"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="55dp"
+                            android:text="15% Tuition waiver"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="20dp"
+                            android:text="GPA 3.50 both in SSC and HSC"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="55dp"
+                            android:text="10% Tuition waiver"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="20dp"
+                            android:text="Female Students"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="55dp"
+                            android:text="10% Tuition waiver"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="20dp"
+                            android:text="For admission of second child of same parents"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="55dp"
+                            android:text="30% Tuition waiver"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/title10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="20dp"
+                            android:text="Special waiver for teacher’s children, tribal and Physically disabled"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                        <TextView
+                            android:layout_height="40dp"
+                            android:paddingLeft="55dp"
+                            android:text="10% Tuition waiver"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            />
+                    </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Note:"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" A student may be eligible for waiver in several catagories but he/she will get 01(one) waivar which one is higher."
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</TableLayout>

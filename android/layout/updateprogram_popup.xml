@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:textSize="40dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Types of Courses"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/update"
+        android:hint="Text here"
+        android:gravity="center"></EditText>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="No of Courses"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/update"
+        android:hint="Text here"
+        android:gravity="center"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Credit Hours"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/update"
+        android:hint="Text here"
+        android:gravity="center"></EditText>
+
+
+
+
+
+    <Button
+        android:id="@+id/updatebtn1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_gravity="center"></Button>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcademicPrograms"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Academic Programs"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Undergraduate"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Bachelor of Science in Computer Science and Engineering.\n2. Bachelor of Science in Electrical and Electronic Engineering\n3. Bachelor of Architecture.\n4. Bachelor of Civil Engineering.
+                              5. Bachelor of Arts in English.
+                              6. Bachelor of Business Administration.
+                              7. Bachelor of Law.\n8. Bachelor of Islamic Studies.
+                              9. Bachelor of Hospitality and Tourism Management.\n10. Bachelor of Bangla."
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Graduate"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Master of Business Administration (MBA).\n2. Master of Business Administration Executive Program (EMBA).\n3. MA in English (Preliminary and Final).\n4. LL.M(Final).\n5. Masters of Public Health (MPH).\n6. MA in Islamic Studies.\n7. M.Sc in Computer Science and Engineering."
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textIsSelectable="true"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

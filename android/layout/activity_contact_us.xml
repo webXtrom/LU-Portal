@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUs"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mr. Md. Kawser Hawlader \nDeputy Registrar (Admission)\n01313084499\n(Ext. 170)\n01716-871188"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Syeed Sabul Hussain\nOffice Assistant\n01313084499 (Ext. 172)\n01755-841864"
+        />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Ms. Nahida Akter Priyanka\nOffice Assistant\n01313084499, Ext. 172\nCell: 01970364679"
+        />
+
+
+</LinearLayout>

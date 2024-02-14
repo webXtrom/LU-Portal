@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TuitionFeesAndPaymentSystem"
+    android:orientation="vertical"
+    android:padding="17dp"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guide line for Tuition Fees Payment System"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="16dp"
+                />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/paymentsystem1"
+                android:scaleType="centerCrop"
+                android:padding="15dp"
+                android:layout_marginTop="15dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:src="@drawable/paymentsystem2"
+                android:scaleType="centerCrop"
+                android:padding="25dp"
+                android:layout_marginTop="15dp"
+                />
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:src="@drawable/paymentsystem3"
+                android:scaleType="centerCrop"
+                android:padding="15dp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/howToPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More Information\nHow to payment"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="@color/teal_200"
+                android:textColor="@color/white"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
