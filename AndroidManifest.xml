@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UniversityPortal"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".AddFaculty"
+            android:exported="false" />
+        <activity
+            android:name=".FacultycseButton"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFacultysave"
+            android:exported="false" />
+        <activity
+            android:name=".UniversityClubFacebookGroupLink"
+            android:exported="false" />
+        <activity
+            android:name=".MoreInformationHowToPayment"
+            android:exported="false" />
+        <activity
+            android:name=".TuitionFeesAndPaymentSystem"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProblem"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProblemSave"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProgramSave"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProgramCSE"
+            android:exported="false" />
+        <activity
+            android:name=".adminProgram"
+            android:exported="false" />
+        <activity
+            android:name=".AdminNoticeSave"
+            android:exported="false" />
+        <activity
+            android:name=".AdminNoticeBoard"
+            android:exported="false" />
+        <activity
+            android:name=".AdminStudent"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".BusUpDate"
+            android:exported="false" />
+        <activity
+            android:name=".Route4"
+            android:exported="false" />
+        <activity
+            android:name=".Route3"
+            android:exported="false" />
+        <activity
+            android:name=".Route2"
+            android:exported="false" />
+        <activity
+            android:name=".Route1"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHomePanel"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanelLogin"
+            android:exported="false" />
+        <activity
+            android:name=".problem"
+            android:exported="false" />
+        <activity
+            android:name=".COURSEProgramCSE"
+            android:exported="false" />
+        <activity
+            android:name=".ProgramCse"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".DepartmentOfCSE"
+            android:exported="false" />
+        <activity
+            android:name=".AcademicPrograms"
+            android:exported="false" />
+        <activity
+            android:name=".HowToApply"
+            android:exported="false" />
+        <activity
+            android:name=".TuitionFees"
+            android:exported="false" />
+        <activity
+            android:name=".ScholarshipAndAid"
+            android:exported="false" />
+        <activity
+            android:name=".AdmissionAndRegistrationPolicies"
+            android:exported="false" />
+        <activity
+            android:name=".OfficeOfTrustees"
+            android:exported="false" />
+        <activity
+            android:name=".ProctorialBody"
+            android:exported="false" />
+        <activity
+            android:name=".AcademicCouncil"
+            android:exported="false" />
+        <activity
+            android:name=".Syndicate"
+            android:exported="false" />
+        <activity
+            android:name=".BoardOfTrustees"
+            android:exported="false" />
+        <activity
+            android:name=".AdministrationOfUniversity"
+            android:exported="false" />
+        <activity
+            android:name=".PositionOfUniversity"
+            android:exported="false" />
+        <activity
+            android:name=".FounderChairmanVc"
+            android:exported="false" />
+        <activity
+            android:name=".Transport"
+            android:exported="false" />
+        <activity
+            android:name=".UniversityClub"
+            android:exported="false" />
+        <activity
+            android:name=".Students"
+            android:exported="false" />
+        <activity
+            android:name=".FacultyMembers"
+            android:exported="false" />
+        <activity
+            android:name=".Admission"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeBoard"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
