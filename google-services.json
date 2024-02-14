@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "328309894988",
+    "firebase_url": "https://universityportal-973cf-default-rtdb.firebaseio.com",
+    "project_id": "universityportal-973cf",
+    "storage_bucket": "universityportal-973cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328309894988:android:25af324fd5201d9d82a9e9",
+        "android_client_info": {
+          "package_name": "com.naeemkhan.universityportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328309894988-hk4gus48cegmrjp1p4ps0jbjdbpqqmpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi_8OEooTPTbDQo_UcrIPjv8jhMphud2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328309894988-hk4gus48cegmrjp1p4ps0jbjdbpqqmpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
